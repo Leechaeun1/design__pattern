@@ -10,10 +10,10 @@ Design Pattern
   ![img.png](img.png)
 
 - Adapter 패턴의 종류
-  - 클래스에 의한 Adapter 패턴(상속을 사용한 패턴)
+  - 클래스에 의한 Adapter 패턴(상속을 사용한 패턴)  ***-->위임보다 간단 !***
     - **adapter.adapter1**
     ![img_1.png](img_1.png)
-  - 인스턴스에 의한 Adapter 패턴(위임을 사용한 패턴)
+  - 인스턴스에 의한 Adapter 패턴(위임을 사용한 패턴) ***-->상속보다 유연 !***
     - **adapter.adapter2**
     ![img_2.png](img_2.png)
 
