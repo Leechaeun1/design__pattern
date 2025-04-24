@@ -33,7 +33,7 @@ Design Pattern
     - 템플릿 : 문자 모양대로 난 얇은 플라스틱 판
         - 절차는 **부모 클래스**가 결정, 각 절차에서 할 일은 **자식 클래스**가 판단
         
-        ![image.png](attachment:2b1a2c0f-f255-493d-a35d-2f250ed9bc9d:image.png)
+        ![image (1).png](image (1).png)
         
         - 부모 클래스는 보통 추상 클래스(추상 템플릿)
         - 자식이 상속 받아 해당 추상 메소드를 구현
