@@ -29,9 +29,8 @@ Design Pattern
 -----
 🐹 template method 패턴 
 
-- Template Method
-    - 템플릿 : 문자 모양대로 난 얇은 플라스틱 판
-        - 절차는 **부모 클래스**가 결정, 각 절차에서 할 일은 **자식 클래스**가 판단
+- 템플릿 : 문자 모양대로 난 얇은 플라스틱 판
+  - 절차는 **부모 클래스**가 결정, 각 절차에서 할 일은 **자식 클래스**가 판단
         
         ![image=template.png](image=template.png)
         
