@@ -49,4 +49,16 @@
             -> **framework의 기본 패턴**
 
       - 상위 클래스와 하위 클래스의 연계 플레이
-      - 하위 클래스를 상위 클래스와 동일시 한다 
+      - 하위 클래스를 상위 클래스와 동일시 한다
+   
+
+---
+🐹 Iterator 패턴
+
+- **Iterator - 처리를 반복하다**
+    - **인덱스 사용하지 않고 처리를 반복**
+    - 변수 i의 기능을 추상화하여 일반화한 것
+![iterator2.png](iterator2.png)
+
+iterator의 클래스 다이어그램
+![iterator.png](iterator.png)
