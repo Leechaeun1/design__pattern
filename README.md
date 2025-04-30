@@ -62,3 +62,23 @@
 
 iterator의 클래스 다이어그램
 ![iterator.png](iterator.png)
+
+
+---
+🐹 Command 패턴
+
+- **Command pattern - 명령을 클래스로 표현한다**
+    - Command 클래스
+        - **‘이 일을 처리 하시오’**라는 **‘명령’**을 표현하는 클래스
+        - 처리하고 싶은 일을 `객체`로서 표현
+    - 명령의 `집합`을 저장해 둠
+        - 같은 명령 **재실행** 가능
+        - 여러 명령을 모아서 새로운 명령으로 **재사용** 가능(재사용성 ▲)
+    - 예제 프로그램
+        - CLI 메뉴 기반의 간단한 어플리케이션
+            - 사용자가 선택한 메뉴를 실행
+              ![command1.png](command1.png)
+              ** equalsIgnoreCase() : 대소문자 구분 X
+
+    - Command 클래스 다이어그램
+      ![command2.png](command2.png)
