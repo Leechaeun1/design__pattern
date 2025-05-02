@@ -2,6 +2,8 @@
 ***Design Pattern***
 
 🐹 Singleton
+
+
 ![singleton.png](singleton.png)
 - **생성자를 private 접근 제한**해서 외부에서 new 연산자로 생성자를 호출하라 수 없도록 막아서 외부에서 객체를 생성하지 못하게 함
 - 대신 싱글톤 패턴이 제공하는 **정적 메소드를 통해 간접적으로 객체를 얻을 수 있음**
