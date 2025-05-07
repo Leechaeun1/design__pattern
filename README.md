@@ -91,3 +91,21 @@ iterator의 클래스 다이어그램
 
     - Command 클래스 다이어그램
       ![command2.png](command2.png)
+
+---
+🐹 Factory Method 패턴
+- **Factory Method - 하위 클래스에서 인스턴스를 만든다**
+    - templateMethod를 응용 → 인스턴스 생성 장면에 적용
+        - templateMethod: 부모(로직, 알고리즘)←자식(하는 일, 알고리즘의 세부 단계**→를 인스턴스 생성 장면에:factoryMethod**)
+    - **예제 프로그램(factorymethod파일)**
+        - 신분증 카드를 만드는 공장
+        - 프레임워크 역할
+            - Product 클래스와 Factory 클래스
+        - 구체적인 내용 역할
+            - IDCard 클래스와 IDCardFactory 클래스
+         
+              
+         ![factory1.png](factory1.png)
+      - 예제 프로그램 클래스 다이어그램
+              ![factory2.png](factory2.png)
+        **이탤릭체 : 추상메서드
