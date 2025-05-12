@@ -136,7 +136,7 @@ iterator의 클래스 다이어그램
     
 
 - **prototype 패턴의 클래스 다이어그램**
-
+![prototype.png](prototype.png)
   - **prototype 패턴 사용 이유**
     - 종류가 너무 많아서 클래스로 정리할 수 없을 경우
     - 클래스로부터 인스턴스 생성이 어려운 경우
